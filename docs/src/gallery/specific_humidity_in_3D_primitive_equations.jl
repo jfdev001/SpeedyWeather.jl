@@ -13,7 +13,7 @@ function main()
 
     model = PrimitiveWetModel(spectral_grid, output=output)
     simulation = initialize!(model)
-    run!(simulation, period=Day(6), output=true)
+    run!(simulation, period=Day(10), output=true)
 end 
 
 
